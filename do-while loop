@@ -1,0 +1,123 @@
+package dowhileloop;
+
+public class example1 {
+
+	public static void main(String[] args) {
+		//  1 to 10 numbers
+		int i=1;
+		do {
+			System.out.println(i);
+			i++;
+		}while(i<=10);
+
+	}
+
+}
+
+package dowhileloop;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		// Table of 5
+		int i =1;
+		do {
+			System.out.println(i*5);
+			i++;
+		}while(i<=10);
+
+	}
+
+}
+
+
+package dowhileloop;
+
+public class Example3 {
+
+	public static void main(String[] args) {
+		// print 5 to 1
+		int i = 5;
+		do {
+			System.out.println(i);
+			i--;
+		}while(i>=1);
+
+	}
+
+}
+
+
+package dowhileloop;
+
+public class Example4 {
+
+	public static void main(String[] args) {
+		//sum of first 1 to 10
+		int i=1;
+		int sum =0;
+		do {
+			System.out.println(i);
+			i++;
+			sum=sum +i;
+		}while(i<=10);
+     System.out.println("sum : " +sum);
+	}
+
+}
+
+package dowhileloop;
+
+public class Example6 {
+
+	public static void main(String[] args) {
+		// divisible by 7 from 100
+				int i = 100;
+				do {if(i%7==0) 
+					System.out.println(i);
+			      i++;
+					
+				}while(i<=200);
+
+
+	}
+
+}
+
+package dowhileloop;
+
+public class Example7 {
+
+	public static void main(String[] args) {
+	 // count of digits
+		int i =3124;
+		int count =0;
+		do {
+			i = i/10;
+			++count;
+		}while(i !=0);
+		
+	System.out.println("number of digits:"+count);
+
+	}
+
+}
+
+package dowhileloop;
+
+public class Example8 {
+
+	public static void main(String[] args) {
+		// reverse number
+		int y =3214;
+		int r=0;
+		int n=0;
+		do {
+			n=y%10;
+			r=(r*10)+n;
+			y=y/10;
+		}while(y>0);
+System.out.println(r);
+	}
+
+}
