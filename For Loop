@@ -1,0 +1,110 @@
+package Iterativestatement;
+
+public class Example1 {
+
+	public static void main(String[] args) {
+		// printing hello 10 times
+		for(int i =1 ; i<=10; i++) {
+			System.out.println("HELLO - "+i);
+		}
+
+	}
+
+}
+
+package Iterativestatement;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		// 5 table
+		for(int i=1; i<=10; i++) {
+			System.out.println(i*5);
+		}
+
+	}
+
+}
+
+package Iterativestatement;
+
+public class Example3 {
+
+	public static void main(String[] args) {
+		// print 5 to 1
+		for(int i=5; i>=1; i--) {
+			System.out.println(i);
+		}
+	}
+
+}
+
+package Iterativestatement;
+
+public class Example4 {
+
+	public static void main(String[] args) {
+		// sum of x 1to 10
+		int sum =0;
+		for(int i = 1 ; i<=10; i++)
+		{
+			sum = sum+i;
+		}
+		
+			System.out.println("Sum:" +sum);
+	}
+
+}
+
+package Iterativestatement;
+
+public class Example5 {
+
+	public static void main(String[] args) {
+		// - print the sum even number from 30 to 50 
+		
+		for(int i =30; i<=50; i =i+2) {
+			if(i%2==0)
+			System.out.println("for even numbers :" +i);
+		}
+		
+		System.out.println();
+		//- print the sum odd number from 40 to 50 
+		
+		for(int i = 50; i>=40; i--) {
+			if(i%2!=0) 
+			System.out.println("for odd numbers :" +i);
+		}
+		
+	}
+
+}
+
+package Iterativestatement;
+
+public class example6 {
+
+	public static void main(String[] args) {
+		// divisible by 7 from 100
+		for(int i =1 ; i<=100;i++) {
+			if(i%7==0)
+				System.out.println(i);
+		}
+
+	}
+
+}
+package Iterativestatement;
+
+public class example7 {
+
+	public static void main(String[] args) {
+		// even num
+		for(int i = 0; i <= 10; i = i+2) {
+			System.out.println(i);
+		}
+		
+	}
+	
+
+}
